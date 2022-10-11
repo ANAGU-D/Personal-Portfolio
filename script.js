@@ -1,7 +1,7 @@
 'use strict';
 
 //element toggle funcction
-const elementTogggleFunc = function(elem){elem.classList.toggle("active");}
+const elementToggleFunc = function(elem){elem.classList.toggle("active");}
 
 // sidebar variables
 
@@ -43,7 +43,7 @@ for(let i = 0; i< navigationLinks.length; i++){
             pages[i].classList.add("active");
             window.scrollTo(0,0)  
             }else{
-                page[i].claassList.remove("active");
+                pages[i].claassList.remove("active");
                 navigationLinks[i].classList.remove("active");
             }
         }
